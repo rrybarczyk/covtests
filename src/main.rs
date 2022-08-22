@@ -19,4 +19,9 @@ mod tests {
     fn test_ret_one() {
         assert_eq!(1, ret_one());
     }
+
+    #[test]
+    fn test_ret_two() {
+        assert_eq!(2, ret_two());
+    }
 }
